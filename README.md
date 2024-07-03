@@ -11,10 +11,11 @@ O construtor não gerencia modelos. Uma vez que cria um modelo, ele está para c
 
 Você pode gerar seu token-id e segredo de token usando o seguinte comando no seu Proxmox Shell pveum user token add terraform-prov@pve terraform-token --privsep=0Substitua terraform-prov-pve com o seu nome de usuário criado Escreva isso porque você não será capaz de encontrar este token de acesso novamente mais tarde
 
-Packer - Criação de Servidores do Proxmox Ubuntu
-Automação de empacotador em Proxmox para generer um modelo de máquina virtual do ubuntu-24.04-desktop-amd64.iso a partir de um iso
+Packer - O Packer é uma ferramenta de código aberto da Hashicorp para criar imagens de máquinas e contêineres, que automatiza o processo de construção, provisionamento e embalagem dessas imagens, facilitando o gerenciamento e a implantação de sua infraestrutura.
 
 Visão geral
+Ao combinar o Proxmox com o Packer, podemos criar infraestrutura como código ou IaC para obter processos de implantação simplificados e automatizados.
+
 
 Usando o Packer para criar uma imagem de servidor ubuntu-24.04-desktop-amd64.iso dentro do Proxmox. Isso foi projetado com a versão "3.0.1-rc1" Proxmox Virtual Environment.
 
