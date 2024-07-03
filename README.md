@@ -14,6 +14,7 @@ Você pode gerar seu token-id e segredo de token usando o seguinte comando no se
 Packer - O Packer é uma ferramenta de código aberto da Hashicorp para criar imagens de máquinas e contêineres, que automatiza o processo de construção, provisionamento e embalagem dessas imagens, facilitando o gerenciamento e a implantação de sua infraestrutura.
 
 Visão geral
+
 Ao combinar o Proxmox com o Packer, podemos criar infraestrutura como código ou IaC para obter processos de implantação simplificados e automatizados.
 
 
